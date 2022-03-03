@@ -25,14 +25,20 @@
 
         }
 
-        #first-div p::after {
+        #first-div > p::after {
             content: "new";
             color: yellow;
+            font-style:italic
         }
 
-        p:hover {
+        p:nth-child(8):hover {
             font-style: italic;
+            cursor:none
         }
+
+
+
+
     </style>
 </head>
 
